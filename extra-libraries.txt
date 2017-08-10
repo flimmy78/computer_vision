@@ -1,0 +1,7 @@
+workon cv
+pip install matplotlib
+pip install pandas
+pip install scipy
+pip install --upgrade scikit-learn
+pip install --upgrade tensorflow
+sudo apt-get install python-tk
