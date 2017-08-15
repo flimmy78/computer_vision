@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/indigo.h
+stdint.h
+-
+cmath
+-
+math.h
+-
+
+/cygdrive/c/Users/Feng/Documents/Project/SPR/occam_camera/indigosdk-2.0.19/examples/read_calib.cc
+indigo.h
+/cygdrive/c/Users/Feng/Documents/Project/SPR/occam_camera/indigosdk-2.0.19/examples/indigo.h
+iostream
+-
+string
+-
+sstream
+-
+vector
+-
+stdio.h
+-
+stdlib.h
+-
+
